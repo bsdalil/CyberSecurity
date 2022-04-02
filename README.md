@@ -4,12 +4,13 @@ Coursework from Cyber Security Bootcamp
 
 The files in this repository were used to configure the network depicted below.
 
-(Images/Network_Diagram.jpg)
+(Diagrams/Network_Diagram.jpg)
 
 These files have been tested and used to generate a live ELK deployment on Azure. 
 They can be used to either recreate the entire deployment pictured above. 
-Alternatively, select portions of the elk-playbook.yml file may be used to install only certain pieces of it, such as Filebeat.
+Alternatively, select portions of the install-elk.yml file may be used to install only certain pieces of it, such as Filebeat.
 
+(Ansible/install-elk.yml)
 
 This document contains the following details:
 - Description of the Topology
@@ -43,10 +44,8 @@ The configuration details of each machine may be found below.
 
 ### Access Policies
 
-The machines on the internal network are not exposed to the public Internet. 
-
-Only the Jump-Box machine can accept connections from the Internet. 
-Access to this machine is only allowed from the following IP addresses:
+The most machines on the internal network are not exposed to the public Internet. 
+Only the Jump-Box machine can accept connections from the public Internet. Access to this machine is only allowed from the following IP addresses:
 My Public IP Address
 
 Machines within the network can only be accessed by Jump-Box (10.1.0.4).
@@ -61,11 +60,7 @@ A summary of the access policies in place can be found in the table below.
 | JumpELK  | No                  | 10.1.0.0/24          |
 
 ### Elk Configuration
-Ansible was used to automate the configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
- 
- -Having to manually configure the entire system would have taken a much longer time to complete. 
-  Any potential errors created by manually configuring the system would have also added to the amount of time lost. 
-  Ansible with its easy-to-learn setup and configuration saved a lot of time.
+Ansible was used to automate the configuration of the ELK machine. No configuration was performed manually, which is advantageous because having to manually configure the entire system would have taken a much longer time to complete. Any potential errors created by manually configuring the system would have also added to the amount of time lost. Ansible with its easy-to-learn setup and configuration saves a lot of time.
 
 The playbook implements the following tasks:
 
@@ -76,11 +71,11 @@ The playbook implements the following tasks:
 - Finally, set the container to start up on boot
 
 Your playbook should look like this screenshot when you're done:
-(Images/install_elk_yaml.png)
+(Diagrams/install-elk.yml)
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-(Images/Docker_ps.png)
+(Ansible/Docker_ps.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -109,3 +104,12 @@ SSH into the control node and follow the steps below:
 - Copy the install-elk.yml file to the Ansible container.
 - Update the hosts file to include the elk IP Address. You will also need to include "ansible_python_interpreter=/usr/bin/python3" beside the IP.
 - Run the playbook, and navigate to http://[your.ELK-VM.External.IP]:5601/app/kibana to check that the installation worked as expected.
+
+### Exploring Kibana
+Once Kibana has been accessed you can import some sample data to the site, you can see what some of this sample data looks like in the Ansible directory:
+(Ansible/Exploring_Kibana_1)
+(Ansible/Exploring_Kibana_2)
+(Ansible/Exploring_Kibana_3)
+(Ansible/Exploring_Kibana_4)
+(Ansible/Exploring_Kibana_5)
+(Ansible/Exploring_Kibana_6)

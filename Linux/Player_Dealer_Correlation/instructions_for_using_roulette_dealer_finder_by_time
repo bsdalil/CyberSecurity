@@ -1,0 +1,10 @@
+Hello,
+This is how you're going to want to put in the information to find the dealer you are searching first.
+After typing in "sh Roulette_Dealer_Finder_by_Time. sh"
+1. type the day you're trying to search ex 0310, 0312
+2. type in the hour ex 5,6,7 (For 1 and 2 put a 0 in front otherwise 11 and 12 will appear in the results)
+3. type in AM or PM
+5. Hit ENTER
+
+The Dealer's info should be displayed for you.
+

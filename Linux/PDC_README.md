@@ -20,9 +20,9 @@ I started the investigation by setting up my directories and notes in order to o
 ##### Lucky_Duck_Investigation/Roulette_Loss_Investigations/Player_Analysis
 ##### Lucky_Duck_Investigation/Roulette_Loss_Investigations/Dealer_Analysis
 ##### Lucky_Duck_Investigation/Roulette_Loss_Investigations/Player_Dealer_Correlation
-
-
-
+/
+/
+/
 #### touch ...
 ##### Lucky_Duck_Investigation/Roulette_Loss_Investigations/Player_Analysis/Notes_Player_Analysis
 ##### Lucky_Duck_Investigation/Roulette_Loss_Investigations/Dealer_Analysis/Notes_Dealer_Analysis

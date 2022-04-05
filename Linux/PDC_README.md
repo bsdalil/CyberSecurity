@@ -13,7 +13,9 @@ Using this data I was able to ascertain the guilty parties of this investigation
 ### Prep Work
 
 I started the investigation by setting up my directories and notes in order to organize and keep track of all the information and aspects of the investigation.
-
+/
+/
+/
 #### mkdir ...
 ##### Lucky_Duck_Investigation/
 ##### Lucky_Duck_Investigation/Roulette_Loss_Investigations/
@@ -27,9 +29,9 @@ I started the investigation by setting up my directories and notes in order to o
 ##### Lucky_Duck_Investigation/Roulette_Loss_Investigations/Player_Analysis/Notes_Player_Analysis
 ##### Lucky_Duck_Investigation/Roulette_Loss_Investigations/Dealer_Analysis/Notes_Dealer_Analysis
 ##### Lucky_Duck_Investigation/Roulette_Loss_Investigations/Player_Dealer_Correlation/Notes_Player_Dealer_Analysis
-
-
-
+/
+/
+/
 After setting up my directories I moved on to downloading the files necessary for conducting the investigation.
 
 wget "https://tinyurl.com/3-HW-setup-evidence" && chmod +x ./3-HW-setup-evidence && ./3-HW-setup-evidence
@@ -40,37 +42,42 @@ Dealer_Schedules_0310
 Roulette_Player_Winloss_3010
 
 The Dealer_Schedules_0310 directory contained the schedules of all Black Jack, Texas Hold'em, and Roulette Dealers who worked during the week of March 10th. From this directory, I moved the schedules for the days of March 10th, 12th, and 15th to the Dealer_Analysis directory. I did this because these were the days the losses occurred.
-
+/
+/
+/
 #### mv ...
 ##### ~/Documents/Dealer_Schedules_0310/0310_Dealer_Scehdule ~/Documents/Lucky_Duck_Investigations/Dealer_Analysis
 ##### ~/Documents/Dealer_Schedules_0310/0312_Dealer_Scehdule ~/Documents/Lucky_Duck_Investigations/Dealer_Analysis
 ##### ~/Documents/Dealer_Schedules_0310/0315_Dealer_Scehdule ~/Documents/Lucky_Duck_Investigations/Dealer_Analysis
-
-
-
+/
+/
+/
 The Roulette_Player_Winloss_0310 directory contained the hourly amount of money the casino won/lost to players and the names of players that gambled at the casino during the week of March 10th. From this directory, I moved the schedules for the days of March 10th, 12th, and 15th to the Player_Analysis directory. I did this for the same reason stated above.
-
-
-
+/
+/
+/
 #### mv ...
 ##### ~/Documents/Roulette_Player_Winloss_0310/0310_win_loss_player_data ~/Documents/Lucky_Duck_Investigations/Player_Analysis
 ##### ~/Documents/Roulette_Player_Winloss_0310/0312_win_loss_player_data ~/Documents/Lucky_Duck_Investigations/Player_Analysis
 ##### ~/Documents/Roulette_Player_Winloss_0310/0315_win_loss_player_data ~/Documents/Lucky_Duck_Investigations/Player_Analysis
-
-
+/
+/
+/
 ### Correlating the Evidence
 
 Now that all the prep work has been completed, I can start looking through the data.
 I started in the Player_Analysis directory because I wanted to record what losses occurred at which hours.
 I was able to do so with the following commands:
-
-
+/
+/
+/
 #### grep -E -H "-" ...
 ##### 0310_win_loss_player_data
 ##### 0312_win_loss_player_data
 ##### 0315_win_loss_player_data
-
-
+/
+/
+/
 I appended the output of these commands into the Notes_Player_Analysis. 
 (CyberSecurity/Linux/Player_Dealer_Correlation/Notes_Player_Analysis)
 

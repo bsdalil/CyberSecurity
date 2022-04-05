@@ -3,7 +3,7 @@ Coursework for CyberSecurity Bootcamp
 ## A High Stakes Investigation
 
 In this activity, I played the role of a security analyst hired by Luck Duck Casino (LDC).
-The LDC suffered significant losses at their Roulette tables during the week of March 10th, these losses on occurring March 10th, 12th, and 15th.
+The LDC suffered significant losses at their Roulette tables during the week of March 10th, these losses occurring March 10th, 12th, and 15th.
 I was hired in order to investigate the over $1 million worth of losses that occurred. 
 The manager believes that a dealer and a player are colluding to steal money from the casino.
 For this investigation, I was given access to a large database with data on the dealer's schedule, player analysis, and recorded wins and losses.
@@ -103,7 +103,7 @@ Among the names listed one name was included at every hour a loss occurred, that
 I recorded how many times Mylie Schmidt's name was found and moved on to look for the dealer that was working the roulette table at the time of the losses.
 
 I changed the directory to the Dealer_Analysis directory and wrote some scripts to sift out the dealer information I needed for the investigation.
-You can find the scipts I created here:
+You can find the scripts I created here:
 
 CyberSecurity/Linux/Player_Dealer_Correlation/0310_Roulette_Dealer_Finder.sh
 CyberSecurity/Linux/Player_Dealer_Correlation/0312_Roulette_Dealer_Finder.sh
@@ -123,10 +123,11 @@ CyberSecurity/Linux/Player_Dealer_Correlation/Notes_Player_Dealer_Analysis
 ### Scripting Future Tasks
 
 After completing my investigation, LDC asked me to build a script that will let them analyze future employees' schedules. 
-And in the case of similar losses in the future, let them to easily isolate which employees are working at a specific time.
+And in the case of similar losses in the future, let them easily isolate which employees are working at a specific time.
 
 You can find the script I wrote and the instructions on how to use it here:
 
 CyberSecurity/Linux/Player_Dealer_Correlation/Roulette_Dealer_Finder_by_Time.sh
 CyberSecurity/Linux/Player_Dealer_Correlation/instructions_for_using_roulette_dealer_finder_by_time
+
 

@@ -15,7 +15,7 @@ Using this data I was able to ascertain the guilty parties of this investigation
 I started the investigation by setting up my directories and notes in order to organize and keep track of all the information and aspects of the investigation.
 
 #### mkdir ...
-Lucky_Duck_Investigation/
+##### Lucky_Duck_Investigation/
 Lucky_Duck_Investigation/Roulette_Loss_Investigations/
 Lucky_Duck_Investigation/Roulette_Loss_Investigations/Player_Analysis
 Lucky_Duck_Investigation/Roulette_Loss_Investigations/Dealer_Analysis

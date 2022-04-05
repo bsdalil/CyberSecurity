@@ -107,9 +107,18 @@ SSH into the control node and follow the steps below:
 
 ### Exploring Kibana
 Once Kibana has been accessed you can import some sample data to the site, you can see what some of this sample data looks like in the Ansible directory:
-(Ansible/Exploring_Kibana_1)
-(Ansible/Exploring_Kibana_2)
-(Ansible/Exploring_Kibana_3)
-(Ansible/Exploring_Kibana_4)
-(Ansible/Exploring_Kibana_5)
-(Ansible/Exploring_Kibana_6)
+
+/
+/
+/
+
+##### (Ansible/Exploring_Kibana_1)
+##### (Ansible/Exploring_Kibana_2)
+##### (Ansible/Exploring_Kibana_3)
+##### (Ansible/Exploring_Kibana_4)
+##### (Ansible/Exploring_Kibana_5)
+##### (Ansible/Exploring_Kibana_6)
+
+/
+/
+/
